@@ -6,7 +6,7 @@ const dayRoutes = require('./routes/dayRoutes');
 const { db } = require('./database');
 
 app.use(cors({
-  origin: '*',
+  origin: 'https://organisation-journaliere.netlify.app',
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
